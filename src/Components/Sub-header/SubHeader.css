@@ -1,0 +1,15 @@
+.subHeader {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+}
+.subHeader--categouries {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+@media only screen and (max-width: 720px) {
+  .subHeader--categouries {
+    display: none;
+  }
+}

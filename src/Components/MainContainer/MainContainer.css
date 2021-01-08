@@ -1,0 +1,15 @@
+.mainContainer {
+  background-color: #f9f9f9;
+  height: 900px;
+}
+
+@media only screen and (max-width: 1184px) {
+  .mainContainer {
+    background-color: #f9f9f9;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

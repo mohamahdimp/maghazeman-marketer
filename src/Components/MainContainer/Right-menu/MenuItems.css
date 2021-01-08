@@ -1,0 +1,24 @@
+.menuItem {
+  background-color: #f9f9f9;
+  padding: 15px 7px 15px 65px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.menuItem:hover {
+  cursor: pointer;
+  background-color: #cfcdce;
+}
+@media only screen and (max-width: 1184px) {
+  .menuItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

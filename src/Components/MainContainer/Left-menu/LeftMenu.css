@@ -1,0 +1,189 @@
+.leftMenu {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  direction: rtl;
+  background-color: white;
+  margin: 15px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  height: 800px;
+  width: 73%;
+}
+.leftMenu--search-input {
+  width: 600px;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  border-right: none;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.leftMenu--search-button {
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  border-left: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.leftMenu--shopsContainer {
+  display: flex;
+  width: 650px;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.leftMenu--robbin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  width: 160px;
+  background-color: #fd3f3f;
+  height: 600px;
+  color: white;
+}
+.leftMenu--arrowUp {
+  width: 0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid white;
+  position: absolute;
+  bottom: 0;
+}
+.leftMenu--profilepic {
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  border: solid 10px white;
+}
+.leftMenu--information {
+  position: relative;
+}
+.leftMenu--container {
+  display: flex;
+}
+.leftMenu--settings {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.leftMenu--userSettings {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1184px) {
+  .leftMenu--robbin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 80px;
+    width: 675px;
+    background-color: #fd3f3f;
+    height: 70px;
+    color: white;
+    margin-top: 10px;
+  }
+  .leftMenu--arrowUp {
+    display: none;
+  }
+  .leftMenu--profilepic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    border: solid 3px white;
+  }
+  .leftMenu--information {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .leftMenu--container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .leftMenu {
+    align-items: center;
+  }
+  .leftMenu--userInfo {
+    display: none;
+  }
+  .leftMenu--settings {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: -67px;
+    right: -245px;
+  }
+  .leftMenu--userSettings {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    align-items: center;
+  }
+  .leftMenu--shopsContainer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .leftMenu {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .leftMenu--search-input {
+    width: 250px;
+  }
+  .leftMenu--robbin {
+    width: 300px;
+    height: 100px;
+  }
+  .infoSpan {
+    display: none;
+    color: black;
+  }
+  .leftMenu--settings {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: -61px;
+    right: -30px;
+  }
+  .leftMenu--profilepic {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    border: solid 3px white;
+  }
+  .leftMenu--shopsContainer {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+}
